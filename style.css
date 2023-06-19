@@ -1,0 +1,540 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Mea+Culpa&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Mea+Culpa&family=Roboto+Slab:wght@400;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.allpage {
+  overflow: hidden;
+}
+.sidenav {
+  height: 100%;
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  right: 0;
+  background-color: #2c4856;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+  opacity: 93%;
+  width: 36%;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 130%;
+  color: #c4c7cb;
+  display: block;
+  transition: 0.3s;
+  font-weight: 900;
+  font-family: "Roboto Slab", serif;
+}
+.sidenav ul {
+  padding: 2%;
+  color: #6194ae;
+  size: 23%;
+  font-family: "Alfa Slab One", cursive;
+}
+
+.sidenav a:hover {
+  color: #2bb4a7;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  left: -2%;
+  font-size: 200%;
+}
+
+/* header{
+     height: 20vh;
+     display: flex;
+     z-index: 40;
+     position: relative;  
+   
+} */
+.icon {
+  display: grid;
+  height: 50%;
+  margin: 0px 122px;
+  position: relative;
+  left: -4%;
+  top: 1.5%;
+}
+.icon img {
+  height: 130%;
+  /* margin: 0px 122px; */
+  position: relative;
+  top: 84%;
+  left: -1%;
+}
+.menu {
+  position: relative;
+  display: inline;
+  top: 13%;
+}
+.menu:hover {
+  cursor: pointer;
+}
+.menu img {
+  display: inline;
+  height: 61%;
+  position: relative;
+  top: 8%;
+  left: 93%;
+}
+
+h1 {
+  font-size: 500%;
+  line-height: 127%;
+  display: inline;
+  line-height: 129%;
+  font-weight: 900;
+  position: relative;
+  left: 30%;
+  color: #2bb4a7;
+  font-family: "Alfa Slab One", cursive;
+}
+p {
+  font-size: 106%;
+  position: relative;
+  left: -2%;
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+}
+
+.mountain {
+  width: auto;
+  position: relative;
+  top: 30%;
+}
+.mountain img {
+  width: 100vw;
+  position: relative;
+  top: 50%;
+}
+
+.card {
+  background-color: white;
+  width: 70vw;
+  height: 25vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  row-gap: 5%;
+  column-gap: 2%;
+  padding: 3%;
+  margin: 5% 11%;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.box1 {
+  background-color: white;
+  text-align: center;
+  height: 30vh;
+  font-family: "Roboto Slab", serif;
+}
+.box1 img {
+  height: 25%;
+  padding: 0% 39%;
+}
+.box1:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+.box2:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+.box3:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+.box2 {
+  background-color: white;
+  text-align: center;
+  height: 30vh;
+  font-family: "Roboto Slab", serif;
+}
+.box2 img {
+  height: 25%;
+  padding: 0% 39%;
+}
+.box3 {
+  background-color: white;
+  text-align: center;
+  height: 30vh;
+  font-family: "Roboto Slab", serif;
+}
+.box3 img {
+  height: 25%;
+  padding: 0% 39%;
+}
+h2 {
+  font-size: 500%;
+  color: #ebecee;
+  position: relative;
+  left: 38%;
+  font-weight: 900;
+  display: inline;
+  font-family: "Alfa Slab One", cursive;
+}
+h3 {
+  font-size: 106%;
+  position: relative;
+  left: 12%;
+  top: 2%;
+  font-weight: 50%;
+  opacity: 65%;
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+  display: inline;
+}
+.services {
+  display: inline;
+}
+
+.container {
+  background-color: white;
+  height: 80vh;
+  width: 95vw;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  row-gap: 12px;
+  column-gap: 12px;
+  position: relative;
+  margin: 3% 0%;
+}
+
+.item1 {
+  width: 8vw;
+  background-color: white;
+}
+.item1 img {
+  width: 8vw;
+}
+.item2 {
+  width: 19vw;
+  background-color: white;
+  position: relative;
+  right: 16%;
+  font-family: "Roboto Slab", serif;
+}
+.item3 {
+  width: 8vw;
+  background-color: white;
+}
+.item3 img {
+  width: 8vw;
+}
+.item4 {
+  width: 19vw;
+  background-color: white;
+  position: relative;
+  right: 16%;
+  font-family: "Roboto Slab", serif;
+}
+.item5 {
+  background-color: #20393e;
+  width: 200px;
+  height: 220px;
+  position: relative;
+  top: 45%;
+  left: 33%;
+  z-index: 1;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+
+  color: white;
+}
+.item6 {
+  background-color: #2c4856;
+  position: relative;
+  top: 30%;
+  left: 8%;
+  width: 50%;
+  height: 120%;
+}
+.item7 {
+  width: 8vw;
+  background-color: white;
+}
+.item7 img {
+  width: 8vw;
+}
+.item8 {
+  width: 19vw;
+  background-color: white;
+  position: relative;
+  right: 16%;
+  font-family: "Roboto Slab", serif;
+}
+.item9 {
+  width: 8vw;
+  background-color: white;
+}
+.item9 img {
+  width: 8vw;
+}
+.item10 {
+  width: 19vw;
+  background-color: white;
+  position: relative;
+  right: 16%;
+  font-family: "Roboto Slab", serif;
+}
+
+.portfolio {
+  background-color: #ebecee;
+}
+h5 {
+  font-size: 500%;
+  color: #c4c7cb;
+  position: relative;
+  left: 35%;
+  font-weight: 900;
+  display: inline;
+  font-family: "Alfa Slab One", cursive;
+}
+
+.pf {
+  width: 65vw;
+  height: 58vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 5%;
+  column-gap: 2%;
+  padding: 3%;
+  margin: 2% 16%;
+}
+
+.pf1 {
+  background-color: #20393e;
+  height: 40vh;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.pf2 {
+  background-color: #20393e;
+  height: 40vh;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.pf3 {
+  background-color: #20393e;
+  height: 40vh;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.pf4 {
+  background-color: white;
+  height: 15vh;
+  position: relative;
+  top: -40%;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.pf5 {
+  background-color: white;
+  height: 15vh;
+  position: relative;
+  top: -40%;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.pf6 {
+  background-color: white;
+  height: 15vh;
+  position: relative;
+  top: -40%;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.f {
+  text-align: center;
+  padding: 20%;
+  font-size: 30px;
+  font-weight: 900;
+  margin: -3%;
+  position: relative;
+  top: 23%;
+  width: 68%;
+  height: 30%;
+  color: white;
+}
+.show {
+  border: 2px solid black;
+  display: inline;
+  width: 45%;
+  text-align: center;
+  position: relative;
+  bottom: 45%;
+  left: 129%;
+}
+.show:hover {
+  cursor: pointer;
+}
+h6 {
+  font-size: 106%;
+  position: relative;
+  left: 24%;
+  top: 2%;
+  font-weight: 50%;
+  opacity: 65%;
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+  display: inline;
+}
+.about {
+  width: 95vw;
+}
+.ab {
+  background-color: white;
+  width: 90vw;
+  height: 70vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  row-gap: 5%;
+  column-gap: 2%;
+}
+.ab1 {
+  background-color: #d7dadd;
+  position: relative;
+  height: 70%;
+  width: 45%;
+  top: 13%;
+  left: 62%;
+  z-index: 1;
+}
+.ab2 {
+  background-color: #20393e;
+  width: 200px;
+  height: 220px;
+  position: relative;
+  top: 23%;
+  left: -24%;
+  z-index: 2;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 170%;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.ab3 {
+  background-color: #2bb4a7;
+  height: 50%;
+  width: 48%;
+  position: relative;
+  top: 18%;
+  left: -74%;
+  z-index: 1;
+}
+.ab4 {
+  background-color: #2bb4a7;
+  width: 95%;
+  height: 17%;
+  position: relative;
+  top: 55%;
+  left: -200%;
+}
+.ab5 {
+  background-color: white;
+  width: 230%;
+  height: 45%;
+  position: relative;
+  left: -190%;
+  top: 5%;
+  font-family: "Roboto Slab", serif;
+}
+
+.line {
+  background-color: #2bb4a7;
+  width: 60%;
+  height: 1%;
+  position: relative;
+  top: 10%;
+}
+.m {
+  position: relative;
+  top: 18%;
+}
+
+.contact {
+  background-color: #ebecee;
+  width: auto;
+}
+.free {
+  color: #20393e;
+  font-size: 245%;
+  line-height: 263%;
+  position: relative;
+  left: 13%;
+  top: 20%;
+  font-family: "Alfa Slab One", cursive;
+  width: 60vw;
+}
+.mail {
+  color: #2bb4a7;
+  font-size: 210%;
+  line-height: 0%;
+  position: relative;
+  left: 13%;
+  /* top: 21%; */
+  font-family: "Alfa Slab One", cursive;
+  display: inline;
+}
+.net {
+  font-size: 150%;
+  line-height: 520%;
+}
+.social {
+  display: inline;
+  position: relative;
+  left: 13%;
+  font-size: 104%;
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+}
+.z {
+  display: inline;
+  position: relative;
+  left: 14%;
+}
+.fa {
+  color: #20393e;
+  padding: 1%;
+}
+.fa:hover {
+  cursor: pointer;
+}
+.fab {
+  color: #20393e;
+  padding: 1%;
+}
+.fab:hover {
+  cursor: pointer;
+}
+
+footer {
+  height: 12vh;
+  color: white;
+  background-color: #2c4856;
+}
+.flex-all-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 0%;
+  font-family: "Alfa Slab One", cursive;
+  font-weight: 800;
+}
