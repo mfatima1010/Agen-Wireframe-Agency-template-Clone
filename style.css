@@ -107,6 +107,10 @@ p {
   font-family: "Roboto Slab", serif;
 }
 
+.hello {
+  margin: 3% 0px;
+  padding: 0px;
+}
 .mountain {
   width: auto;
   position: relative;
@@ -115,7 +119,7 @@ p {
 .mountain img {
   width: 100vw;
   position: relative;
-  top: 50%;
+  top: 100%;
 }
 
 .card {
@@ -128,7 +132,7 @@ p {
   row-gap: 5%;
   column-gap: 2%;
   padding: 3%;
-  margin: 5% 11%;
+  margin: 10% 11%;
 }
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
